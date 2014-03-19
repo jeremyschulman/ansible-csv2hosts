@@ -1,10 +1,10 @@
 host-name {{ hostname }}
-{% if DHCP == 'true' %}
+{% if DHCP == 'True' %}
 dhcp
   network {{ dhcp_network }}
   netmask {{ dhcp_netmask }}
   server {{ dhcp_gateway }}
-  exclude-start {{ dhcp_exlcude1_start }}
+  exclude-start {{ dhcp_exclude1_start }}
   exclude-end {{ dhcp_exclude1_end }}
 {% endif %}
 management
