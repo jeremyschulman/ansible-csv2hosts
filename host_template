@@ -1,0 +1,12 @@
+host-name {{ hostname }}
+{% if DHCP == 'true' %}
+dhcp
+  network {{ dhcp_network }}
+  netmask {{ dhcp_netmask }}
+  server {{ dhcp_gateway }}
+  exclude-start {{ dhcp_exlcude1_start }}
+  exclude-end {{ dhcp_exclude1_end }}
+{% endif %}
+management
+  ip {{ public_ip }}
+  gateway {{ public_gateway }}

@@ -1,0 +1,7 @@
+---
+- hosts: all
+  connection: local
+  gather_facts: no
+  tasks:
+    - name: building config
+      template: src=host_template dest=./{{inventory_hostname}}.conf

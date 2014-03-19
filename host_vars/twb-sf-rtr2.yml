@@ -1,0 +1,18 @@
+---
+CBAC: 'True'
+DHCP: 'True'
+dhcp_exclude1_end: 10.1.1.99
+dhcp_exclude1_start: 10.1.1.1
+dhcp_gateway: 10.1.1.1
+dhcp_netmask: 255.255.255.0
+dhcp_network: 10.1.1.0
+hostname: twb-sf-rtr2
+public_gateway: 6.6.6.1
+public_ip: 6.6.6.6
+public_netmask: 255.255.255.0
+secret: apassword
+timezone: PST
+timezone_dst: PDT
+timezone_offset: '-8'
+vlan10_ip: 10.1.1.1,
+vlan10_network: 10.1.1.0
