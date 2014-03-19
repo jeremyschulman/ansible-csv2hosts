@@ -1,3 +1,3 @@
 hostname,timezone_dst,timezone_offset,vlan10_network,dhcp_gateway,public_ip,timezone,dhcp_exclude1_start,dhcp_network,CBAC,vlan10_ip,secret,dhcp_netmask,public_gateway,dhcp_exclude1_end,public_netmask,DHCP
 twb-sf-rtr1,PDT,-8,10.1.1.0,10.1.1.1,"6.6.6.6,",PST,10.1.1.1,10.1.1.0,True,"10.1.1.1",apassword,255.255.255.0,"6.6.6.1",10.1.1.99,255.255.255.0,True
-twb-sf-rtr2,PDT,-8,10.1.1.0,10.1.1.1,6.6.6.6,PST,10.1.1.1,10.1.1.0,True,"10.1.1.1,",apassword,255.255.255.0,6.6.6.1,10.1.1.99,255.255.255.0,True
+twb-sf-rtr2,PDT,-8,11.1.1.0,11.1.1.1,7.7.7.7,PST,11.1.1.1,11.1.1.0,True,"11.1.1.1,",apassword,255.255.255.0,7.7.7.1,11.1.1.99,255.255.255.0,True
